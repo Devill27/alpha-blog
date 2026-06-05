@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #040404 !important;
+}
+
+.nav-link {
+  color: rgb(225, 225, 229) !important;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+#logo {
+  float: left;
+  color: #ffffff !important;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: url('/assets/jumbo-copy.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+  border-radius: 0.3rem;
+}
+
+html,
+body {
+  background: rgb(11, 10, 10) !important;
+}
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: rgb(31, 30, 30);
+}
+
+#sticky-footer {
+  flex-shrink: 0;
+}
+
+h1 {
+  color: rgb(232, 234, 238);
+}
+body {
+  background-color: rgb(8, 8, 8) !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}

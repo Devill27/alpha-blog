@@ -1,4 +1,17 @@
-<h1>This is the Home page</h1>
+<div id="page-content">
+  <div id="home-container" class="container">
+    <div class="jumbotron text-center text-white d-flex align-items-center justify-content-center">
+      <div>
+        <h1 class="display-4">ALPHA BLOG</h1>
+        <p class="lead">Share your thoughts with the world</p>
+        <%= link_to "Learn More", "#", class: "btn btn-success btn-lg", role: "button" %>
+      </div>
+    </div>
+  </div>
 
-<%= link_to 'Article listing', articles_path %> |
-<%= link_to 'About page', about_path %>
+  <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; <%= link_to "Furqan Raza", "https://Alpha-blog.com", class: "text-white" %></small>
+    </div>
+  </footer>
+</div>
